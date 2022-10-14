@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number 14 - Real Time Subscriber Counter</title>
+    <link rel="stylesheet" href="/asset/css/app14.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="url">
+        <input
+          type="text"
+          placeholder="Enter Your Channel Id"
+          id="channelURL"
+        />
+        <input type="submit" value="Find" id="search" />
+      </div>
+      <div id="response">
+        <div id="logoFrame">
+          <div id="innerCircle">CODE NOW</div>
+        </div>
+        <!-- Channel Details -->
+        <div id="channelDetail">
+          <div class="cards">
+            <div class="name" id="subscriber">Subscribers</div>
+            <h2 class="values" id="subscriberValue">00</h2>
+          </div>
+          <div class="cards">
+            <div class="name" id="views">Views</div>
+            <h2 class="values" id="viewsValue">00</h2>
+          </div>
+          <div class="cards">
+            <div class="name" id="videos">Videos</div>
+            <h2 class="values" id="totalVideos">00</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Error Section -->
+      <div id="errors">
+        <h3 id="errorValue">ERROR SECTION</h3>
+      </div>
+    </div>
+    <script src="/asset/js/app14.js"></script>
+  </body>
+</html>
